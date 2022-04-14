@@ -164,8 +164,8 @@ contract x21146331_ERC20 is Context, IERC20, IERC20Metadata {
      * construction.
      */
     constructor() {
-        _name = "MY SPECIAL TOKEN";
-        _symbol = "MST";
+        _name = "x21146331_Token";
+        _symbol = "XTK";
         
         _mint(msg.sender, 1000000000000000000000000);
     }
