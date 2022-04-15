@@ -52,12 +52,12 @@ node ./distribute.js
 
 ## Docker Build Instructions
 
-1) As docker file and the docker compose file are already generated, the following command is executed to build and run.
+1) As docker and the docker compose files are already generated, the following command is executed to build and run the image.
 
 ```bash
 docker-compose up -d
 ```
-2) After that to see the image created and to get the container id, the following command has to be supplied.
+2) After that to verify the image created and to retrieve the container id, the following command has to be supplied.
 
 ```bash
 docker ps -a
