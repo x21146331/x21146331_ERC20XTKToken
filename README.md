@@ -49,3 +49,22 @@ npm install
 node ./distribute.js
 ```
 7) Transactions can be seen in the terminal and once after the completion outputs are verified in a block explorer like etherscan. ([EtherScan](https://etherscan.io/))
+
+## Docker Build Instructions
+
+1) As docker file and the docker compose file are already generated, the following command is executed to build and run.
+
+```bash
+docker-compose up -d
+```
+2) After that to see the image created and to get the container id, the following command has to be supplied.
+
+```bash
+docker ps -a
+```
+3) To see the execution console, fire the following command by supplying the container id to the command.
+
+```bash
+docker logs -f <container-id>
+```
+
