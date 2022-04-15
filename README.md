@@ -14,8 +14,8 @@ Code is implemented to distribute ERC20 token by invoking the contract deployed 
 
 
 NodeJS 16.14.0  
-Solidity  
-Javascript  
+Solidity 0.8.0
+Javascript ES6
 
 ## How to Run?
 
@@ -26,13 +26,14 @@ Javascript
 git clone https://github.com/x21146331/x21146331_ERC20XTKToken.git
 ```
 3) Configure the .env file addresses as per the following directions.  
+
    INFURA_TOKEN ([Infura](https://infura.io/))- Supply the api end point for the ethereum test network.
   
-    CONTRACT_ADDRESS([Remix](https://remix.ethereum.org/))- Supply the contract id which is generated from deploying in ethereum.
+    CONTRACT_ADDRESS([Remix](https://remix.ethereum.org/))- Supply the contract id which is generated from deploying solidity file(x21146331_Contract.sol) in ethereum.
 
-    OWNER_ADDRESS- Supply metamask test network account address.  
+    OWNER_ADDRESS([MetaMask](https://metamask.io/))- Supply metamask test network account address.  
  
-    SUPER_SECRET_PRIVATE_KEY- Supply from the metamask account.
+    SUPER_SECRET_PRIVATE_KEY([MetaMask](https://metamask.io/))- Supply from the metamask account.
 
 4) Execute the following command to install all the dependencies through nope package manager(npm).
 
@@ -41,9 +42,10 @@ npm install
 ```
 5) Include the destination wallet addresses in accountstodistribute.txt file.
 
-5) Invoke the distribute.js for by running the following command.
+6) Invoke the distribute.js for by running the following command.
 
 
 ```bash
 node ./distribute.js
 ```
+7) Transactions can be seen in the terminal and once after the completion outputs are verified in a block explorer like etherscan. ([EtherScan](https://etherscan.io/))
