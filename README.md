@@ -14,7 +14,7 @@ Code is implemented to distribute ERC20 token by invoking the contract deployed 
 
 
 NodeJS 16.14.0  
-Solidity 0.8.0
+Solidity 0.8.0  
 Javascript ES6
 
 ## How to Run?
